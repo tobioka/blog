@@ -1,2 +1,3 @@
-name: Your New Jekyll Site
+name: Jekyll and me
 pygments: true
+baseurl: /blog
