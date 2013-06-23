@@ -1,0 +1,10 @@
+# Jekyll
+_site
+
+# Mac
+.DS_Store
+
+# Vim
+*~
+.*.sw*
+
