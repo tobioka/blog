@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "JekyllとGitHub Pagesでブログを書き始めた"
-date:   2013-06-23 23:55:27
 categories: diary
 tags: jekyll github gh-pages
 ---
