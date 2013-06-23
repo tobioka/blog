@@ -16,7 +16,7 @@ Static Site Generator、流行ってますね。
 以下、このサイトを作るまでのメモです。
 
 なお、ホスティングには[GitHub Pages](http://pages.github.com/)を利用しています。
-ユーザページ（ユーザ名.github.com）じゃなく、プロジェクトページ（ユーザ名.github.com/プロジェクト名）でやりました。
+ユーザページ（ユーザ名.github.io）じゃなく、プロジェクトページ（ユーザ名.github.io/プロジェクト名）でやりました。
 
 ## GitHub上でRepositoryの準備
 
@@ -41,7 +41,10 @@ $ jekyll new .
 
 ### 相対パスで動かせるように
 
-今回、プロジェクトページでやるので「/プロジェクト名」で動作するように設定
+今回、プロジェクトページでやるので「/プロジェクト名」で動作するように設定します。
+
+参考：[ruby - Configuring Jekyll for github PROJECT pages - Stack Overflow](http://stackoverflow.com/questions/10585916/configuring-jekyll-for-github-project-pages)
+
 {% highlight sh %}
 $ vim _config.yml
 baseurl: /blog
@@ -66,3 +69,4 @@ $ git push origin gh-pages
 あとは適当にサイト名とか記事とか編集しましたが、そこは省略します。
 
 これで、今ご覧のブログが運営できる状態になりました。
+
