@@ -22,7 +22,7 @@ Static Site Generator、流行ってますね。
 今回、tnantoka.github.comではなく、tobioka.github.comでやりたかったので、
 [Organizations](https://github.com/settings/organizations)から、新たにOrganization（<https://github.com/tobioka>）を作成しました。
 
-そして、Repogitory（<https://github.com/tobioka/blog>）を作ります。
+そして、Repository（<https://github.com/tobioka/blog>）を作ります。
 
 一応、[README.md](https://github.com/tobioka/blog/blob/master/README.md)をコミットして、masterブランチをデフォルトにしておきました。
 （gh-pagesだけにしてもよかったんですが、できるだけ「普通」の使い方をしたかったので）
