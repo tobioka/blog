@@ -65,7 +65,8 @@ $ git commit -am "Publish site"
 $ git push origin gh-pages
 {% endhighlight %}
 
-あとは適当にサイト名とか記事とか編集しましたが、そこは省略します。
+pushした後、しばらく待てば、GitHub上で閲覧できるようになります。  
+※ もちろん、サイト名や記事も編集しましたが、そこは省略します。
 
 これで、今ご覧のブログが運営できる状態になりました。
 
